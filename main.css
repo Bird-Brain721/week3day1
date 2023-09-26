@@ -1,0 +1,69 @@
+body, h2, h1, a, p, button {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+#navigation {
+    background-color: goldenrod;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    padding: 8px;
+}
+#title {
+    float: left;
+    padding-left: 35px;
+}
+h1 {
+    color: white;
+    font-size: 15px;
+}
+a {
+    color: white;
+    padding-right: 12px;
+    text-decoration: none;
+}
+#links {
+    float: right;
+    padding-right: 35px;
+}
+
+#mainContent {
+    text-align: center;
+    margin-top: 60px;
+}
+#parentContainer {
+    display: inline-block;
+}
+.box {
+    padding: 15px;
+    border: 2px solid goldenrod;
+    width: 200px;
+    float: left;
+    text-align: left;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+.box p {
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 18px;
+}
+.box h2 {
+    margin-bottom: 10px;
+}
+a:last-child {
+    padding-right: 0px;
+}
+button {
+    padding: 5px;
+    width: 200px;
+    background-color: goldenrod;
+    border: none;
+    color: white;
+}
+body {
+    clear: left;
+}
