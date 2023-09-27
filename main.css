@@ -9,9 +9,11 @@ body, h2, h1, a, p, button {
     position: fixed;
     top: 0px;
     padding: 8px;
+    display: flex;
+    justify-content: space-between;
 }
 #title {
-    float: left;
+    justify-content: flex-start;
     padding-left: 35px;
 }
 h1 {
@@ -24,7 +26,6 @@ a {
     text-decoration: none;
 }
 #links {
-    float: right;
     padding-right: 35px;
 }
 
@@ -33,13 +34,14 @@ a {
     margin-top: 60px;
 }
 #parentContainer {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .box {
     padding: 15px;
     border: 2px solid goldenrod;
     width: 200px;
-    float: left;
     text-align: left;
     margin-right: 8px;
     margin-top: 8px;
@@ -64,6 +66,4 @@ button {
     border: none;
     color: white;
 }
-body {
-    clear: left;
-}
+
